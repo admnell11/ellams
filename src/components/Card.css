@@ -1,0 +1,41 @@
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  overflow: hidden; /* Ensures child elements don't break the border radius */
+}
+
+.card-header {
+  padding: 15px 20px;
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9; /* Slight off-white for header */
+}
+
+.card-title {
+  margin: 0;
+  font-size: 1.25em;
+  font-weight: 500;
+  color: #333333;
+}
+
+.card-actions {
+  display: flex;
+  gap: 10px; /* Space between action buttons/elements */
+}
+
+.card-body {
+  padding: 20px;
+  line-height: 1.6;
+  color: #555555;
+}
+
+/* Optional: Add hover effect for cards */
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-color: #cccccc;
+}

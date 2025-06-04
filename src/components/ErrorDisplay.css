@@ -1,0 +1,32 @@
+.error-display-container {
+  background-color: #ffebee; /* Light red background */
+  border: 1px solid #e57373; /* Red border */
+  color: #c62828; /* Dark red text */
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.error-display-container h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #b71c1c; /* Even darker red for heading */
+}
+
+.error-message {
+  margin-bottom: 5px;
+}
+
+.error-details {
+  background-color: #ffcdd2; /* Slightly darker red for pre background */
+  padding: 10px;
+  border-radius: 3px;
+  font-family: monospace;
+  white-space: pre-wrap; /* Ensures long error messages wrap */
+  word-break: break-all;
+  font-size: 0.9em;
+  max-height: 200px; /* Limit height and make scrollable if needed */
+  overflow-y: auto;
+}
